@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+  <meta charset="utf-8" />
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>The best tagline on the internet | Awesomely</title>
+  <meta name="description" content="Awesomely makes it easy for anyone to do anything.
+">
+
+  <link rel='stylesheet' href='css/foundation.css' media='all'/>
+  <link rel='stylesheet' href='css/animations.css' media='all'/>
+  <link rel='stylesheet' href='css/app.css' media='all'/>
+
+  <script src='js/vendor/custom.modernizr.js'></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+<body>
+
+  <!-- Top bar -->
+  <div class="contain-to-grid">
+    <nav class="top-bar" data-options="is_hover:false">
+      <ul class="title-area">
+        <li class="name"><h1><a href="/">Startup</a></h1></li>
+        <li class="toggle-topbar menu-icon"><a href=""><span>Menu</span></a></li>
+      </ul>
+
+      <section class="top-bar-section">
+        <ul class="right">
+
+          <li class="divider"></li>
+          <li class=""><a href="features.html">Features</a></li>
+
+          <li class="divider"></li>
+          <li class=""><a href="pricing.html">Pricing</a></li>
+
+          <li class="divider"></li>
+          <li><a href="#" class="tiny button" data-reveal-id="signupModal">Sign Up</a></li>
+          <li class="divider"></li>
+
+        </ul>
+      </section>
+    </nav>
+  </div>
+  <!-- @end Top bar-->
+
+
+
+  <!-- Hero -->
+  <section class="hero-section">
+		<div class="slideshow-wrapper">
+  		<div class="preloader"></div>
+      <ul id="featured-slider" data-orbit data-options="
+    		animation: 'fade';
+        timer_speed: 3000;
+        pause_on_hover: true;
+        resume_on_mouseout: false;
+        animation_speed: 1000;
+        navigation_arrows: true;
+        slide_number: false;
+        active_slide_class: active;
+        orbit_transition_class: 'orbit-transitioning';
+        bullets: false;
+        timer: false;
+        variable_height: false;"
+      >
+
+        <li class="slide">
+          <i class="bg-img phone"></i>
+          <div class="row">
+            <div class="large-6 push-1 columns">
+              <div class="content left light-text slidein-left">
+                <h1 class="headline">Your Catchy Claim </h1>
+                <h4 class="subheader">A sentence or two about your product, what it does and why it’s awesome.</h4>
+                <p><a href="#" class="large button" data-reveal-id="signupModal">Try it free</a></p>
+              </div>
+            </div>
+            <div class="large-5 columns">
+              <img src="images/phone.png" class="fg-img right slidein-bottom" width="350" height="528" alt="" />
+            </div>
+          </div>
+        </li>
+
+        <li class="slide">
+          <i class="bg-img tablet"></i>
+          <div class="row">
+            <div class="large-6 push-1 columns">
+              <div class="content left light-text slidein-left">
+                <h1 class="headline">Still not convinced? </h1>
+                <h4 class="subheader">Maybe a little more marketing copy will change your mind. Got you interested now?</h4>
+                <p><a href="#" class="large button" data-reveal-id="signupModal">Get started</a></p>
+              </div>
+            </div>
+            <div class="large-5 columns">
+              <img src="images/tablet.png" class="fg-img right slidein-bottom" width="372" height="500" alt="" />
+            </div>
+          </div>
+        </li>
+
+        <li class="slide">
+          <i class="bg-img laptop"></i>
+          <div class="row">
+            <div class="large-6 columns push-6">
+              <div class="content right light-text slidein-right">
+                <h1 class="headline">What?! Y U no click?</h1>
+                <h4 class="subheader">Please please please sign up. Pretty please with a cherry on top.</h4>
+                <p><a href="#" class="large button" data-reveal-id="signupModal">CLICK ME!</a></p>
+              </div>
+            </div>
+            <div class="large-6 columns pull-6">
+              <img src="images/laptop.png" class="fg-img left slidein-bottom" width="540" height="450" alt="" />
+            </div>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </section>
+  <!-- end Hero-->
+
+  <!-- Page content -->
+  <div class="row">
+    <div class="large-12 columns">
+
+      <!-- Benefits -->
+      <section class="section">
+
+        <header class="section-header text-center">
+
+            <h2>Why you absolutely must try our product </h2>
+            <h4 class="subheader">This is a very compelling argument describing why this product will make your life so much better. How could you live without it?</h4>
+
+        </header>
+
+          <section class="section">
+            <div class="row">
+              <div class="large-7 columns ">
+                <img src="images/placeholder.png" width="1000" height="562" alt="" />
+              </div>
+              <div class="large-5 columns ">
+                <h3>Benefit 1</h3>
+                <div class="blurb">
+                  <p>Write a a short paragraph explaining why this product is super duper. A little something that will grab their attention.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="row">
+              <div class="large-7 columns push-5">
+                <img src="images/placeholder.png" width="1000" height="562" alt="" />
+              </div>
+              <div class="large-5 columns pull-7">
+                <h3>Benefit 2</h3>
+                <div class="blurb">
+                  <p>One benefit might not be enough to convince them so write a bit more. You got their attention, get them interested.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section">
+            <div class="row">
+              <div class="large-7 columns ">
+                <img src="images/placeholder.png" width="1000" height="562" alt="" />
+              </div>
+              <div class="large-5 columns ">
+                <h3>Benefit 3</h3>
+                <div class="blurb">
+                  <p>If they are not convinced yet, they definitely will after reading this. Now they can&rsquo;t help giving you their money.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+      </section>
+      <!-- end Benefits -->
+
+      <!-- Testimonials from customers -->
+      <section class="section">
+        <div class="row">
+
+            <div class="large-6 columns">
+              <blockquote>
+                <p class="blurb">
+                  “I do absolutely everything with this product. We’re all flabbergasted by it’s amazing awesomeness.”
+                </p>
+                <cite>Jane Doe, <a href="http://acme2.com/">Acme II</a></cite>
+              </blockquote>
+            </div>
+
+            <div class="large-6 columns">
+              <blockquote>
+                <p class="blurb">
+                  “We are using this product and love it! This is a must have for anyone who needs air and water to survive.”
+                </p>
+                <cite>John Doe, <a href="http://acme.com">Acme</a></cite>
+              </blockquote>
+            </div>
+
+        </div>
+      </section>
+      <!-- end Testimonials -->
+
+      <!-- Press -->
+      <section class="section">
+        <h4>As seen on</h4>
+        <ul class="large-block-grid-6 small-block-grid-3">
+
+            <li><a href="http://www.sanger.dk/" target="_blank"><img src="images/placeholder.png" width="1000" height="562" alt="" /></a></li>
+
+            <li><a href="http://heyyeyaaeyaaaeyaeyaa.com/" target="_blank"><img src="images/placeholder.png" width="1000" height="562" alt="" /></a></li>
+
+            <li><a href="http://www.ismycomputeron.com/" target="_blank"><img src="images/placeholder.png" width="1000" height="562" alt="" /></a></li>
+
+            <li><a href="http://heeeeeeeey.com/" target="_blank"><img src="images/placeholder.png" width="1000" height="562" alt="" /></a></li>
+
+            <li><a href="http://www.omfgdogs.com/" target="_blank"><img src="images/placeholder.png" width="1000" height="562" alt="" /></a></li>
+
+            <li><a href="http://www.koalastothemax.com/" target="_blank"><img src="images/placeholder.png" width="1000" height="562" alt="" /></a></li>
+
+        </ul>
+      </section>
+
+    </div>
+  </div>
+  <!-- end Page content -->
+
+
+
+  <section id="signup" class="cta panel">
+    <div class="row">
+  <div class="large-12 columns">
+
+      <h3>Sign up for a free trial  </h3>
+      <h5 class="subheader">Send us your email and we&#x27;ll get you up and running in no time. No payment details required. No obligations.</h5>
+      <form name="sign-up" method="post">
+        <div class="row">
+
+          <div class="large-3 columns">
+            <label>Email</label>
+            <input name="email" type="email" required />
+          </div>
+
+          <div class="large-2 columns left">
+            <button type="submit" class="button full-width centered">Get started</button>
+          </div>
+        </div>
+      </form>
+
+  </div>
+</div>
+  </section>
+
+
+  <!-- Footer -->
+  <div class="row">
+    <div class="large-12 columns">
+
+      <footer>
+
+        <!-- Site map -->
+        <nav class="row" id="sitemap">
+          <div class="large-3 columns">
+            <h5>Product</h5>
+            <ul class="side-nav">
+
+                <li><a href="features.html">Features</a></li>
+
+                <li><a href="pricing.html">Pricing</a></li>
+
+            </ul>
+          </div>
+          <div class="large-3 columns">
+            <h5>Company</h5>
+            <ul class="side-nav">
+
+                <li><a href="about.html">About</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+          </div>
+          <div class="large-3 columns">
+            <h5>Community</h5>
+            <ul class="side-nav">
+
+
+
+                  <li><a href="http://twitter.com/bitballoon">Twitter</a></li>
+
+
+                  <li><a href="https://www.facebook.com/BitBalloon">Facebook</a></li>
+
+
+            </ul>
+          </div>
+          <div class="large-3 columns">
+            <h5>Get in touch</h5>
+
+              <p>
+                610 22nd Street, Suite 315
+<br />San Francisco, CA 94107<br/>
+                <a href="mailto:hello@example.com">hello@example.com</a>
+              </p>
+
+          </div>
+        </nav>
+        <!-- @end Site map -->
+
+        <hr />
+
+        <!-- Colophon -->
+        <div class="row">
+          <div class="large-6 columns">
+            <p>
+              © 2013 Awesomely.
+              <a href="tos.html">Terms of Service.</a>
+              <a href="privacy-policy.html">Privacy Policy.</a>
+            </p>
+          </div>
+          <div class="large-6 columns">
+            <p class="right">Launched into Orbit with <a href="http://www.bitballoon.com">BitBalloon</a></p>
+          </div>
+        </div>
+        <!-- @end Colophon -->
+
+      </footer>
+    </div>
+  </div>
+  <!-- @end Footer -->
+
+  <!-- Hidden Modals -->
+  <div id="signupModal" class="reveal-modal small stacked">
+    <div class="row">
+  <div class="large-12 columns">
+
+      <h3>Sign up for a free trial  </h3>
+      <h5 class="subheader">Send us your email and we&#x27;ll get you up and running in no time. No payment details required. No obligations.</h5>
+      <form name="sign-up" method="post">
+        <div class="row">
+
+          <div class="large-3 columns">
+            <label>Email</label>
+            <input name="email" type="email" required />
+          </div>
+
+          <div class="large-2 columns">
+            <button type="submit" class="button full-width">Get started</button>
+          </div>
+        </div>
+      </form>
+
+  </div>
+</div>
+    <a class="close-reveal-modal">×</a>
+  </div>
+  <!-- @end Hidden Modals -->
+
+    <script src='js/vendor/jquery.js'></script>
+    <script src='js/foundation/foundation.js'></script>
+    <script src='js/foundation/foundation.orbit.js'></script>
+    <script src='js/foundation/foundation.reveal.js'></script>
+    <script src='js/foundation/foundation.topbar.js'></script>
+    <script src='js/foundation/foundation.forms.js'></script>
+    <script src='js/app.js'></script>
+
+
+  <script>
+    $(document).foundation();
+  </script>
+
+</body>
+</html>
+
